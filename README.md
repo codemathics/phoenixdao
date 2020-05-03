@@ -9,7 +9,7 @@ This website is designed to introduce the maiden edition website of the PhoenixD
 3. Tokenomics of the PhoenixDAO tokens.
 4. Community.
 
-## Wantt to check it out?
+## Want to check it out?
 
 Perhaps you want to have a look at it, well here it is.
 [PhoenixDAO](https://phoenixdao.io)
