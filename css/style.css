@@ -145,7 +145,7 @@
   color:r#fff;
   font-size: 18px;
   position: relative;
-  background-color: #320058;
+  background-color: #fff;
  }
 .main-page-wrapper {overflow-x:hidden;}
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
@@ -295,6 +295,14 @@ body .theme-button:hover span {opacity: 1;}
   opacity: 0;
   transform: scale(0, 1);
 }
+.border {
+  background: rgb(245, 245, 245);
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.feature-1 {
+  background-color: #fff !important;
+}
 #mega-menu-holder ul> li> a.active:before {opacity: 1;transform: scale(1);}
 #mega-menu-holder .navbar-toggler {
   color: #fff;
@@ -356,7 +364,7 @@ body .theme-button:hover span {opacity: 1;}
 /*----------------------- Theme Banner One -------------------------*/
 .theme-banner-one {
   background-size: cover;
-  background-color: #320058;
+  background-color: #1a2a90;
 }
 
 .header-white {
@@ -663,26 +671,10 @@ body .theme-button:hover span {opacity: 1;}
 .stock-market-price #market-rate .main-wrapper .range-up .rate:before {background: linear-gradient(90deg, rgb(8,221,103) 10%, rgba(255,255,255,1) 100%);}
 /*--------------------- Our Features --------------------*/
 .our-features-one {
-  padding: 120px 0 155px;
+  padding: 80px 0;
   position: relative;
-  border-bottom: 1px solid #f0f0f0;
-}
-.our-features-one:before {
-  content: "\f105";
-  font-family: "Flaticon";
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 1px solid #f0f0f0;
-  text-align: center;
-  line-height: 50px;
-  color: #c0c0c0;
-  position: absolute;
-  bottom: -25px;
-  left: 50%;
-  margin-left: -25px;
   background: #fff;
-  z-index: 1;
+  color: #000;
 }
 .our-features-one .theme-title {text-align: center;padding-bottom: 70px;}
 .our-features-one .single-feature .icon-box {
@@ -723,17 +715,22 @@ body .theme-button:hover span {opacity: 1;}
   display: none;
 }
 .our-features-one .single-feature p {
-  color: #fff;
+  color: #000;
   margin: 35px 0;
   text-align: left;
+}
+.header {
+  color: #838383 !important;
 }
 .our-features-one .single-feature h3 {color: #ea8604;}
 .our-features-one .single-feature.border-fix:before {left:-75px;}
 .our-features-one .single-feature.border-fix:after {right: -75px;}
 /*-------------------- Our Feature Two --------------------*/
 .our-feature-two {
-  padding: 100px 0 320px;
+  padding: 60px 0 120px;
+  background: #1217a4;
   background-image: url(../images/home/bg7.png);
+  background-size: cover;
 }
 .numbers {
   color: #ea8604;
@@ -747,7 +744,7 @@ body .theme-button:hover span {opacity: 1;}
   transition: 0.3s ease-in;
 }
 .here:hover {
-  color: #fff;
+  color: #000;
   transition: 0.3s ease-in;
 }
 .our-feature-two .text {
@@ -1377,12 +1374,15 @@ body .theme-button:hover span {opacity: 1;}
   background: #1217a4;
   position: relative;
   z-index: 1;
+}.token-sale-section.dark-bg-1 {
+  position: relative;
+  z-index: 1;
 }
 .token-sale-section .overlay {
   background: url(../images/home/bg7.png) no-repeat center center;
   background-size: cover;
   padding: 130px 0 140px;
-  position: relative;
+  background-color: #1217a4;
 }
 .token-sale-section .overlay .cube-shape-one {
   position: absolute;
@@ -1405,7 +1405,7 @@ body .theme-button:hover span {opacity: 1;}
 .token-sale-section .theme-title {padding-bottom: 120px;}
 .token-sale-section .token-sale-text .title-wrapper {
   position: relative;
-  padding-right: 215px;
+  padding-right: 20px;
   text-align: right;
 }
 .token-sale-section .token-sale-text .title-wrapper .stage {
@@ -1423,13 +1423,15 @@ body .theme-button:hover span {opacity: 1;}
 }
 .token-sale-section .token-sale-text .title-wrapper .title {
   font-family: 'brandon_grotesquebold';
-  font-size: 72px;
+  font-size: 40px;
   color: #fff;
-  line-height: 70px;
+  line-height: 39px;
   margin-top: 20px;
   position: relative;
 }
-.token-sale-section .token-sale-text .title-wrapper .title:before { 
+
+
+/* .token-sale-section .token-sale-text .title-wrapper .title:before { 
   content: '';
   width: 100px;
   height: 1px;
@@ -1437,7 +1439,7 @@ body .theme-button:hover span {opacity: 1;}
   background: #e7e7e7;
   top:40px;
   right: -175px;
-}
+} */
 .token-sale-section .token-sale-text .meta-data-wrapper .date-range {
   font-family: 'brandon_grotesquemedium';
   font-size: 22px;
@@ -1456,7 +1458,9 @@ body .theme-button:hover span {opacity: 1;}
 }
 .token-sale-section .token-sale-text .meta-data-wrapper .table tr td:last-child {
   line-height: 28px;
-  color: #d0d0d9;
+  color: #efd421;
+  padding-top: 62px;
+  padding-left: 100px;
 }
 .token-sale-section .token-sale-text .single-stage-data {padding-bottom: 55px;}
 .token-sale-section.dark-bg .token-sale-allocation {padding-top: 70px;}
@@ -1482,9 +1486,10 @@ body .theme-button:hover span {opacity: 1;}
   margin-bottom: -3px;
 }
 .token-sale-section .token-sale-allocation .allocation-box ul li span {color: #fff;}
-.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(1) h3 {color: #ffcc41;}
-.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(2) h3 {color: #ec3737;}
-.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(3) h3 {color: #a32dd9;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(1) h3 {color: #0074ff;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(2) h3 {color: #ea8604;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(3) h3 {color: #d17aff;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(4) h3 {color: #87f49f;}
 .token-sale-section .token-sale-allocation .allocation-box ul li:before {
   content: '';
   width: 45px;
@@ -1494,9 +1499,10 @@ body .theme-button:hover span {opacity: 1;}
   top:8px;
   left:0;
 }
-.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(1):before {border: 10px solid  #ffcc41;}
-.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(2):before {border: 10px solid  #ec3737;}
-.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(3):before {border: 10px solid  #a32dd9;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(1):before {border: 10px solid  #0074ff;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(2):before {border: 10px solid  #ea8604;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(3):before {border: 10px solid  #d17aff;}
+.token-sale-section .token-sale-allocation .allocation-box ul li:nth-child(4):before {border: 10px solid  #87f49f;}
 .token-sale-section.light-bg .token-sale-allocation .allocation-box {
   background: #fff;
   border:1px solid #e3e3e3;
@@ -2109,3 +2115,16 @@ body .theme-button:hover span {opacity: 1;}
   transition: all 0.3s ease-in-out;
 }
 .blog-details .comment-area .leave-comment form button:hover {background: #fec25e;}
+
+@media only screen and (max-width: 990px) {
+  .token-sale-section .token-sale-text .meta-data-wrapper .table tr td:last-child {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  .token-sale-section .token-sale-text .title-wrapper {
+    margin-bottom: 0 !important;
+  }
+  .theme-main-menu.fixed {
+    padding: 30px 0;
+  }
+}
