@@ -2166,6 +2166,9 @@ body .theme-button:hover span {opacity: 1;}
     position: relative;
     bottom: 12px;
   }
+  .theme-main-menu.fixed {
+    padding: 35px 0;
+  }
 }
 
 
