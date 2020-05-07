@@ -988,6 +988,9 @@ body .theme-button:hover span {opacity: 1;}
   color: rgba(29,32,35,0.7);
   padding: 16px 0 9px;
 }
+.testimonial-slider .item ul{
+  margin: 10px 0;
+}
 .testimonial-slider .item ul li{
   display: inline-block !important;
   margin-right: 5px;
