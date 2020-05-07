@@ -636,7 +636,7 @@ body .theme-button:hover span {opacity: 1;}
 .stock-market-price #market-rate .main-wrapper .range-up .rate:before {background: linear-gradient(90deg, rgb(8,221,103) 10%, rgba(255,255,255,1) 100%);}
 /*--------------------- Our Features --------------------*/
 .our-features-one {
-  padding: 80px 0;
+  padding: 30px 0;
   position: relative;
   background: #fff;
   color: #000;
@@ -1142,7 +1142,7 @@ body .theme-button:hover span {opacity: 1;}
 }
 /*----------------- Partner Slider -----------*/
 .partner-section {
-  padding: 100px 0 30px;
+  padding: 30px 0 30px;
   text-align: center;
 }
 .partner-slider .item a {display: block;}
@@ -1386,7 +1386,7 @@ body .theme-button:hover span {opacity: 1;}
 .token-sale-section .overlay {
   background: url(../images/home/bg7.png) no-repeat center center;
   background-size: cover;
-  padding: 130px 0 140px;
+  padding: 30px 0 70px;
   background-color: #1217a4;
 }
 .token-sale-section .overlay .cube-shape-one {
@@ -1407,7 +1407,7 @@ body .theme-button:hover span {opacity: 1;}
   color: #d0d0d9;
   padding: 15px 240px 0;
 }
-.token-sale-section .theme-title {padding-bottom: 120px;}
+.token-sale-section .theme-title {padding-bottom: 80px;}
 .token-sale-section .token-sale-text .title-wrapper {
   position: relative;
   padding-right: 20px;
@@ -1467,7 +1467,7 @@ body .theme-button:hover span {opacity: 1;}
   padding-top: 62px;
   padding-left: 100px;
 }
-.token-sale-section .token-sale-text .single-stage-data {padding-bottom: 55px;}
+.token-sale-section .token-sale-text .single-stage-data {padding-bottom: 15px;}
 .token-sale-section.dark-bg .token-sale-allocation {padding-top: 70px;}
 .token-sale-section .token-sale-allocation .theme-title {padding-bottom: 100px;}
 .token-sale-section .token-sale-allocation .allocation-box {
@@ -2132,4 +2132,40 @@ body .theme-button:hover span {opacity: 1;}
   .theme-main-menu.fixed {
     padding: 30px 0;
   }
+  .theme-main-menu .logo img {
+    width: 50%;
+  }
 }
+
+@media only screen and (max-width: 770px) {
+  .our-features-one .single-feature p {
+    margin: 5px 0;
+  }
+  .our-features-one .theme-title {
+    padding-bottom: 30px
+  }
+  .our-features-one {
+    padding: 35px 0 15px !important;
+  }
+  .token-sale-section .overlay {
+    padding: 20px !important;
+  }
+  .partner-section {
+    padding: 30px 0 30px;
+  }
+  .contact-us-one .overlay {
+    padding: 50px o 100px !important;
+  }
+  .theme-main-menu .logo img {
+    width: 200px;
+  }
+  .theme-main-menu .logo {
+    top: -11px !important;
+  }
+  .theme-banner-one .main-text-wrapper .button-group>li:last-child .dropdown-toggle, #mega-menu-holder .navbar-toggler {
+    position: relative;
+    bottom: 12px;
+  }
+}
+
+

@@ -71,7 +71,7 @@
     z-index: 1;
   }
   .theme-main-menu #mega-menu-holder .navbar-nav {background: #fff;box-shadow: 0px 0px 55px 0px rgba(134, 153, 174, 0.12);}
-  #mega-menu-holder ul> li> a {margin: 0 10px;padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.05);}
+  #mega-menu-holder ul> li> a {margin: 0 10px;padding: 8px 0;}
   #mega-menu-holder ul> li> a:before,.our-feature-two .text .number:before,.our-feature-two .text .number:after {display: none;}
   .theme-banner-one .main-text-wrapper p {padding-left: 0;padding-right: 0;}
   .our-features-one .single-feature.border-fix:before, .our-features-one .single-feature.border-fix:after,
