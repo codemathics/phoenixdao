@@ -1147,8 +1147,8 @@ body .theme-button:hover span {opacity: 1;}
 }
 .partner-slider .item a {display: block;}
 .partner-slider .item img {
-  width: 60%;
-  opacity: 0.5;
+  width: 70%;
+  opacity: 0.6;
   transition: 0.3s;
 }
 .partner-slider .item img:hover {
