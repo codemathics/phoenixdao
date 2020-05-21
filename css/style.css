@@ -1152,6 +1152,13 @@ body .theme-button:hover span {opacity: 1;}
   padding: 30px 0 30px;
   text-align: center;
 }
+.partner-slider {
+  margin-left: 15%;
+}
+.partner-slider .item img:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
 .partner-slider .item a {display: block;}
 .partner-slider .item img {
   width: 70%;
@@ -2128,6 +2135,11 @@ body .theme-button:hover span {opacity: 1;}
 }
 .blog-details .comment-area .leave-comment form button:hover {background: #fec25e;}
 
+@media only screen and (max-width: 1199px) {
+  .partner-slider {
+    margin-left: 5%;
+  }
+}
 @media only screen and (max-width: 990px) {
   .token-sale-section .token-sale-text .meta-data-wrapper .table tr td:last-child {
     padding-top: 5px;
